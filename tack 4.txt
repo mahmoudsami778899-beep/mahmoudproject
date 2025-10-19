@@ -1,0 +1,42 @@
+# Create a Contact Book
+
+# Dictionary 
+contacts = {}
+
+# Add three contacts to the dictionary.
+contacts["ali"] = "01012345678"
+contacts["sara"] = "01198765432"
+contacts["aya"] = "01234567890"
+
+print(contacts)# print contacts
+
+search_name = input ("Enter a name to search:")
+print({contacts[search_name]})
+
+# في كذة فكرة وكذة طريقة بس بحاول اصغر الكود علي قد مقدر ويديني المطلوب
+# ممكن احط اف وايلس بردو بس حبيت اصغر الكود 
+
+
+
+
+
+
+
+students = [
+    {"name": "ali", "grades": [85, 90, 80]},
+    
+    {"name": "sara", "grades": [90,100,95]},
+    
+    {"name": "aya", "grades": [70, 75, 80]}
+]
+
+
+for student in students:
+    
+    average = sum(student["grades"]) / len(student["grades"])
+    
+    print(f"{student['name']} - Average Grade: {average}")
+
+
+
+
